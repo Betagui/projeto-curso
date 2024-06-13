@@ -5,8 +5,9 @@ function togglemode() {
    if (html.classList.contains('light')){ 
         img.setAttribute("src", "./imagens/avatar-light.png")
     } else{ 
-       img.setAttribute("scr", "./imagens/avatar.png")
+       img.setAttribute("src", "./imagens/avatar.png")
     }
+    console.log(img) 
        /// if(html.classList.contains('light')) {
    //   html.classList.remove('light')
    //} else {
