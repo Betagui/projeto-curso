@@ -7,21 +7,21 @@
 :root {
     --text-color: white;
     --bg-url: url(./imagens/bg-mobile.jpg);
-    --stroke-color:rgba(255, 255, 255, 0.5);
+    --stroke-color: rgba(255, 255, 255, 0.5);
     --surface-color: rgba(255, 255, 255, 0.05);
     --surface-color-hover: rgba(255, 255, 255, 0.2);
-    --highlight-color:rgba(255, 255, 255, 0.2);
+    --highlight-color: rgba(255, 255, 255, 0.2);
     --switch-bg-url: url(./imagens/moon-star.svg);
     --avatar: url(./imagens/avatar-light.png);
 }
 
-.light{
+.light {
     --text-color: black;
     --bg-url: url(./imagens/bg-mobile-light.jpg);
-    --stroke-color:rgba(0, 0, 0, 0.5);
+    --stroke-color: rgba(0, 0, 0, 0.5);
     --surface-color: rgba(0, 0, 0, 0.05);
     --surface-color-hover: rgba(0, 0, 0, 0.02);
-    --highlight-color:rgba(0, 0, 0, 0.1);
+    --highlight-color: rgba(0, 0, 0, 0.1);
     --switch-bg-url: url(./imagens/sun.svg);
     --avatar: url(./imagens/avatar.png);
 
@@ -69,7 +69,7 @@ body * {
 
 /*swrch*/
 
-#switch{
+#switch {
     position: relative;
     width: 64px;
     margin: 0 auto;
@@ -98,11 +98,18 @@ body * {
     display: block;
     width: 64px;
     height: 24px;
-    background: var(--surface-color) ;
+    background: var(--surface-color);
     border: 1px solid var(--stroke-color);
     backdrop-filter: blur(4px);
     border-radius: 9999px;
-    
+
+}
+
+ul li h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
 ul {
@@ -159,7 +166,7 @@ ul li a:hover {
 
 #social-links a:hover {
     background: var(--highlight-color);
- }
+}
 
 footer {
     padding: 24px 0;
